@@ -1,5 +1,5 @@
 {% set name = "azure-quantum" %}
-{% set version = "0.25.228311" %}
+{% set version = "0.26.232864" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-quantum-{{ version }}.tar.gz
-    sha256: 72857bb0b6a109039db5a080a6c18cd00fb65c71faa2bff5c24e54c06ea86024
+    sha256: 05194cceff42ca7468f102e0803877741c97a0287788f6244d389227db835a8c
   - url: https://raw.githubusercontent.com/microsoft/qdk-python/release/v{{ version }}/LICENSE
     sha256: c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383
 
@@ -23,9 +23,9 @@ requirements:
   run:
     - aiofile >=3.7.2
     - aiohttp >=3.7.0
-    - azure-core >=1.19.1
+    - azure-core >=1.25.0
     - azure-identity >=1.6.0
-    - azure-storage-blob >=12.11.0
+    - azure-storage-blob >=12.13.0
     - deprecated >=1.2.12
     - msrest >=0.6.21
     - numpy >=1.21.0
