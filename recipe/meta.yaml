@@ -1,5 +1,5 @@
 {% set name = "azure-quantum" %}
-{% set version = "0.27.253010" %}
+{% set version = "0.27.258160" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-quantum-{{ version }}.tar.gz
-    sha256: eb1d2325d547079e69a752554c4efbabc3509d386927e991e4ed0ae0ea662a08
+    sha256: e004845ea5602b94946c6f16faedf6c78a08b3ca2cd7622e2ab971b1e6c23d54
   - url: https://raw.githubusercontent.com/microsoft/qdk-python/release/v{{ version }}/LICENSE
     sha256: c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383
 
